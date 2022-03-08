@@ -22,13 +22,22 @@ a:hover{
 	background-color: #000;
 }
 
-#main-navbar a{
-	padding: 10px 20px;
-	position: relative;
-	margin: 0;
-	left: 50%;
-	float: left;
-	
+#main-navbar ul{
+  float: left;
+  position:relative;
+  margin: 0;
+  left: 50%;
+}
+
+#main-navbar ul li {
+  float:left;
+  position: relative;
+  right:50%;
+  display: block;
+}
+
+#main-navbar ul li a{
+  padding: 10px 20px;
 }
 
 #navbar-container {
@@ -36,12 +45,6 @@ a:hover{
 	float: left;
 	position: relative;
 }
-
-#navbar-container a{
-	right: 50%;
-}
-
-
 
 
 
