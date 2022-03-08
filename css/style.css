@@ -1,9 +1,6 @@
 #main-navbar {
-	/* justify-content: center;
-  align-content: center;
-	text-align: center; */
 	background-color: blue;
-	overflow: hidden;
+	
 	float: left;
 	width: 100%;
 	position: relative;
@@ -13,25 +10,26 @@
 	left: 50%;
 	display: block;
 	color: #fff;
-	text-decoration: none;
 }
-/*
+
 #navbar-container {
-	position: relative;
+	/*position: relative;
 	right: 50%;
 	display: block;
 	padding: 10px 20px;
-	background-color: #000;
+	background-color: #000;*/
 	text-decoration: underline overline;
 	float: left;
+	overflow: hidden;
 }
 
 #onpage {
 	position: relative;
 	float:left;
+	text-decoration: none;
 }
  
-*/
+
 #sidebar {
 	position: fixed;
 	right: 0%;
@@ -48,5 +46,5 @@
 
 #sidebar-container {
 	padding: 15px 0;
-  background-color: #000;
+  /*background-color: #000;*/
 }
