@@ -1,11 +1,9 @@
 #main-navbar {
 	background-color: blue;
 	
-	width: 100%;
+	
 	position: relative;
 	overflow: hidden;
-	
-	
 	display: block;
 }
 
@@ -15,29 +13,25 @@
 	margin: 0;
 	left: 50%;
 	float: left;
+	
 }
 
 #navbar-container {
-	
+	width: 100%;
 	right: 50%;
 	float: left;
+	position: relative;
 }
 
 #onpage {
-	position: relative;
-	float:left;
+	
+	/*float:left;*/
 	
 	text-decoration: underline overline;
-	
 }
 
 ul {
 	list-style-type: none;
-	
-}
-
-li {
-	/**/
 }
 
 a {
