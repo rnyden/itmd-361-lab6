@@ -18,7 +18,7 @@
 	display: block;
 	*/
 	padding: 10px 20px;
-	text-decoration: underline overline;
+	
 	float: left;
 	overflow: hidden;
 	
@@ -27,12 +27,17 @@
 #onpage {
 	position: relative;
 	float:left;
-	text-decoration: none;
+	
+	text-decoration: underline overline;
 	/*background-color: #000;*/
 }
 
 ul {
 	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
 }
  
 
