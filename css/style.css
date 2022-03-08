@@ -4,23 +4,22 @@
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	margin: 0;
+	
 	
 	display: block;
-	
+}
+
+#main-navbar a{
+	padding: 10px 20px;
+	position: relative;
+	margin: 0;
+	left: 50%;
 }
 
 #navbar-container {
-	/*position: relative;
 	
-	
-	*/
-	padding: 10px 20px;
-	left: 50%;
 	right: 50%;
 	float: left;
-	
-	
 }
 
 #onpage {
@@ -37,7 +36,7 @@ ul {
 }
 
 li {
-	/*display: block;*/
+	/**/
 }
 
 a {
@@ -49,6 +48,7 @@ a {
 
 a:hover{
 	background-color: #000;
+	display: block;
 }
 
 #sidebar {
